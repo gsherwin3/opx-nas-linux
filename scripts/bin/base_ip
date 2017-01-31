@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-export PYTHONPATH=$OPX_INSTALL_PATH/usr/lib/opx:$OPX_INSTALL_PATH/usr/lib/x86_64-linux-gnu/opx:$OPX_INSTALL_PATH/lib/python2.7/site-packages/
+. $OPX_INSTALL_PATH/etc/opx/opx-environment.sh
 
 $OPX_INSTALL_PATH/usr/lib/x86_64-linux-gnu/opx/base_ip.py
 
